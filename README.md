@@ -9,5 +9,5 @@
 </p>
 
 
-**License:** Unless otherwise noticed, all content of this repository is licensed under CC BY-SA 3.0 Unported<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+**License:** Unless otherwise noticed, all content of this repository is licensed under CC 1.0 <br>
+<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
