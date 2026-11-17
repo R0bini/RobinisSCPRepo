@@ -208,8 +208,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 
 #header {
     box-sizing: border-box;
-    width: 90%;
-    max-width: 100%;
+    width: 100%;
+    max-width: none;
     height: 186px;
     padding: 0;
     position: relative;
@@ -513,8 +513,9 @@ input[type='submit'], button, .btn {
     box-sizing: border-box;
     top: 186px;
     height: 34px;
-    max-width: 980px;
-    width: 90%;
+    max-width: none;
+    width: 100%;
+    left: 0;
     background: var(--synd-accent);
     border-bottom: 3px solid var(--synd-border);
     font-family: var(--synd-ui-font);
@@ -705,13 +706,13 @@ input[type='submit'], button, .btn {
 @media (max-width: 767px) {
     #header {
         height: 159px;
-        width: 94%;
-        max-width: 94%;
+        width: 100%;
+        max-width: none%;
         background-size: 66px 66px, 100% 100%, auto;
         background-position: 13px 64px, center, center;
     }
     #header::before {
-        content: "SYNDIKAT  /  SEIT 1950";
+        content: "Das Syndikat";
         max-width: calc(100% - 120px);
         left: 13px;
         top: 13px;
@@ -722,7 +723,7 @@ input[type='submit'], button, .btn {
     #header h1 a::after { font-size: clamp(1.45rem, 5vw, 2.1rem); letter-spacing: 0.05em; }
     #header h2 { top: 104px; }
     #header h2 span::after { font-size: 0.54rem; letter-spacing: 0.03em; }
-    #top-bar { top: 159px; width: 94%; height: 32px; line-height: 29px; }
+    #top-bar { top: 159px; width: 100%; max-width: none; height: 32px; line-height: 29px; }
     #top-bar ul li a { line-height: 29px; }
     #search-top-box { right: 12px; top: 47px; width: auto; }
     #search-top-box-form input[type='submit'] { font-size: 0.64rem; padding: 2px 5px; }
@@ -755,7 +756,7 @@ input[type='submit'], button, .btn {
 }
 @media (max-width: 420px) {
     #header h1 a::after { font-size: 1.3rem; }
-    #header h2 span::after { content: "HANDEL  /  SICHERHEIT"; font-size: 0.48rem; }
+    #header h2 span::after { content: "Söldner"; font-size: 0.48rem; }
     #header::after { display: none; }
     #search-top-box { top: 119px; right: 8px; }
     #search-top-box-form input[type='submit'] { font-size: 0.58rem; }
