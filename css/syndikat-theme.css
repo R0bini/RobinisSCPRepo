@@ -511,11 +511,10 @@ input[type='submit'], button, .btn {
 
 #top-bar {
     box-sizing: border-box;
-    position: relative;
-    top: 170px;
+    top: 186px;
     height: 34px;
-    max-width: 100%;
-    width: 100%;
+    max-width: 980px;
+    width: 90%;
     background: var(--synd-accent);
     border-bottom: 3px solid var(--synd-border);
     font-family: var(--synd-ui-font);
