@@ -39,7 +39,7 @@
         /* == Text & Logo == */
     --synd-font-serif: 'IBM Plex Serif', serif;
     --synd-font-sans: 'IBM Plex Sans', sans-serif;
-    --synd-logo: url('https://r0bini.github.io/RobinisSCPRepo/img/syndikat-trans.png');
+    --synd-logo: url('https://r0bini.github.io/RobinisSCPRepo/img/syndikat.png');
 
         /* == Sigma-10-DE compatibility variables == */
     --ct_bg_body: var(--synd-background);
@@ -511,10 +511,11 @@ input[type='submit'], button, .btn {
 
 #top-bar {
     box-sizing: border-box;
+    position: relative;
     top: 186px;
     height: 34px;
     max-width: 100%;
-    width: 90%;
+    width: 100%;
     background: var(--synd-accent);
     border-bottom: 3px solid var(--synd-border);
     font-family: var(--synd-ui-font);
