@@ -223,7 +223,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
             rgba(80,62,38,0.012) 6px);
     background-repeat: no-repeat, no-repeat, repeat;
     background-position: 19px 56px, center, center;
-    background-size: 103px 103px, 100% 100%, auto;
+    background-size: auto 103px, 100% 100%, auto;
     border-top: 6px solid var(--synd-accent);
     border-bottom: 4px double var(--synd-border);
     box-shadow: 0 3px 12px var(--synd-shadow);
@@ -704,11 +704,40 @@ input[type='submit'], button, .btn {
 /* === Mobile compatibility === */
 
 @media (max-width: 767px) {
+    .top-bar {
+        display: block;
+    }
+
+    .mobile-top-bar {
+        display: none;
+    }
+
+    #top-bar {
+        top: 159px;
+        width: 100%;
+        height: auto;
+        min-height: 32px;
+    }
+
+    #top-bar .top-bar > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        float: none;
+        margin: 0 8px;
+        padding: 0;
+    }
+
+    #top-bar .top-bar > ul > li > a {
+        line-height: 29px;
+        white-space: nowrap;
+    }
+    
     #header {
         height: 159px;
         width: 100%;
         max-width: none%;
-        background-size: 66px 66px, 100% 100%, auto;
+        background-size: auto 66px, 100% 100%, auto;
         background-position: 13px 64px, center, center;
     }
     #header::before {
@@ -717,7 +746,7 @@ input[type='submit'], button, .btn {
         left: 13px;
         top: 13px;
     }
-    #header::after { content: "DISKRETE DIENSTLEISTUNGEN"; right: 12px; bottom: 8px; font-size: 0.56rem; }
+    #header::after { content: "Ihr Vertrauenspartner"; right: 12px; bottom: 8px; font-size: 0.56rem; }
     #header h1, #header h2 { margin: 0; left: 87px; }
     #header h1 { top: 66px; }
     #header h1 a::after { font-size: clamp(1.45rem, 5vw, 2.1rem); letter-spacing: 0.05em; }
