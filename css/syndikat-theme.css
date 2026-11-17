@@ -230,7 +230,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 #header::before {
-    content: "SYNDIKAT / PRIVATES HANDELS- UND DIENSTLEISTUNGSNETZWERK";
+    content: "DAS SYNDIKAT";
     position: absolute;
     top: 17px;
     left: 19px;
@@ -246,7 +246,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 #header::after {
-    content: "SEIT 1950  ·  DISKRET & ZUVERLÄSSIG";
+    content: "Ihr Söldner- und Dienstleistungspartner seit 1950";
     position: absolute;
     right: 21px;
     bottom: 13px;
