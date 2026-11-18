@@ -140,7 +140,7 @@ body {
 }
 
 body {
-    font-family: var(--synd-font-serif);
+    font-family: var(--synd-font-sans);
     font-size: 0.96em;
     line-height: 1.65;
     background-image:
